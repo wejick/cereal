@@ -1,6 +1,6 @@
 import IconBowl from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/bowl.tsx";
-import IconPlugConnected from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/plug-connected.tsx"
-import IconPlugConnectedX from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/plug-connected-x.tsx"
+import IconPlugConnected from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/plug-connected.tsx";
+import IconPlugConnectedX from "https://deno.land/x/tabler_icons_tsx@0.0.3/tsx/plug-connected-x.tsx";
 
 type Props = {
   active: string;
@@ -15,7 +15,9 @@ export default function Header({ active, connected }: Props) {
     { name: "More >>", href: "/#more" },
   ];
 
-  const connectionStatus = connected? <IconPlugConnected class="w-7 h-7  bg-green-500" /> : <IconPlugConnectedX class="w-7 h-7 bg-red-500" />;
+  const connectionStatus = connected
+    ? <IconPlugConnected class="w-7 h-7  bg-green-500" />
+    : <IconPlugConnectedX class="w-7 h-7 bg-red-500" />;
 
   return (
     <div class="bg-white w-full py-1 px-5 flex flex-col md:flex-row gap-4">
