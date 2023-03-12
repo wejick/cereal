@@ -126,5 +126,54 @@
     "https://esm.sh/v111/twind@0.16.17/deno/twind.js": "076dfc344b9507b3f5ee8a20d0b1e6eeb2ea3c6688649026ed0e13e4de158ff2",
     "https://esm.sh/v111/twind@0.16.17/sheets/sheets.d.ts": "103ecfb19311b86eb5f7a4899f6a3b1192a84cfb73b6ff9a8b84d78b053e6704",
     "https://esm.sh/v111/twind@0.16.17/twind.d.ts": "35492f009a6d8695748d121d0b3b210b0819a663eafc77d68296d3110d6ec27f"
+  },
+  "npm": {
+    "specifiers": {
+      "@tanstack/react-table": "@tanstack/react-table@8.7.9_react@18.2.0_react-dom@18.2.0__react@18.2.0"
+    },
+    "packages": {
+      "@tanstack/react-table@8.7.9_react@18.2.0_react-dom@18.2.0__react@18.2.0": {
+        "integrity": "sha512-6MbbQn5AupSOkek1+6IYu+1yZNthAKTRZw9tW92Vi6++iRrD1GbI3lKTjJalf8lEEKOqapPzQPE20nywu0PjCA==",
+        "dependencies": {
+          "@tanstack/table-core": "@tanstack/table-core@8.7.9",
+          "react": "react@18.2.0",
+          "react-dom": "react-dom@18.2.0_react@18.2.0"
+        }
+      },
+      "@tanstack/table-core@8.7.9": {
+        "integrity": "sha512-4RkayPMV1oS2SKDXfQbFoct1w5k+pvGpmX18tCXMofK/VDRdA2hhxfsQlMvsJ4oTX8b0CI4Y3GDKn5T425jBCw==",
+        "dependencies": {}
+      },
+      "js-tokens@4.0.0": {
+        "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "dependencies": {}
+      },
+      "loose-envify@1.4.0": {
+        "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "dependencies": {
+          "js-tokens": "js-tokens@4.0.0"
+        }
+      },
+      "react-dom@18.2.0_react@18.2.0": {
+        "integrity": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==",
+        "dependencies": {
+          "loose-envify": "loose-envify@1.4.0",
+          "react": "react@18.2.0",
+          "scheduler": "scheduler@0.23.0"
+        }
+      },
+      "react@18.2.0": {
+        "integrity": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "dependencies": {
+          "loose-envify": "loose-envify@1.4.0"
+        }
+      },
+      "scheduler@0.23.0": {
+        "integrity": "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==",
+        "dependencies": {
+          "loose-envify": "loose-envify@1.4.0"
+        }
+      }
+    }
   }
 }

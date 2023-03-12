@@ -15,11 +15,6 @@ export default function NodeWidget(
   { id, ip, heap, disk, cpu, load, nodeIngest, nodeMaster, nodeCoor, nodeData }:
     Props,
 ) {
-  const heapProgress = "width: " + heap + "%";
-  const diskProgress = "width: " + disk + "%";
-  const cpuProgress = "width: " + cpu + "%";
-  const loadProgress = "width: " + load + "%";
-
   const stats = [
     { title: "heap", progress: heap },
     { title: "disk", progress: disk },

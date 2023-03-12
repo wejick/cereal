@@ -20,7 +20,7 @@ export default function Header({ active, connected }: Props) {
     : <IconPlugConnectedX class="w-7 h-7 bg-red-500" />;
 
   return (
-    <div class="bg-white w-full py-1 px-5 flex flex-col md:flex-row gap-4">
+    <div class="bg-white dark:bg-gray-700 dark:text-white w-full py-1 px-5 flex flex-col md:flex-row gap-4">
       <div class="flex items-center flex-none">
         <IconBowl />
         <div class="text-2xl  ml-1 font-bold">
@@ -32,7 +32,7 @@ export default function Header({ active, connected }: Props) {
           <li>
             <a
               href={menu.href}
-              class={"text-gray-500 hover:text-gray-700 py-1 border-gray-500" +
+              class={"text-gray-500 dark:text-gray-100 hover:text-yellow-300 py-1 border-gray-500" +
                 (menu.href === active ? " font-bold border-b-2" : "")}
             >
               {menu.name}
